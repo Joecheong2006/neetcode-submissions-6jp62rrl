@@ -4,7 +4,6 @@ class Solution:
 
         while l <= r:
             m = (l + r) // 2
-
             i = m // len(matrix[0])
             j = m % len(matrix[0])
 
@@ -14,5 +13,5 @@ class Solution:
                 r = m - 1
             else:
                 return True
-                
+
         return False
